@@ -1,0 +1,45 @@
+.hometown-details {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    /* background-color: blue; */
+}
+.town-title {
+    text-align: center;
+}
+h3 {
+    margin-left: 20px;
+}
+h3,
+h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(137, 145, 142);
+}
+
+.town-flex {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: rgb(125, 201, 214);
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    border-left: 10px double rgb(24, 78, 76);
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    background-color: aquamarine;
+    color: black;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
